@@ -3,7 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Enrique Martínez Martel</title>
+  <title>Enrique Martínez Martel — ML Researcher & Data Scientist</title>
+  <meta name="description" content="Portfolio of Enrique Martínez Martel — Data Scientist and ML Researcher with experience in computer vision, NLP, and applied ML. Looking for PhD positions at top European research institutions.">
+  <meta property="og:title" content="Enrique Martínez Martel — ML Researcher & Data Scientist">
+  <meta property="og:description" content="Computer vision, NLP, and applied ML. Projects at Banco Santander and UPM. Looking for PhD positions in Europe.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://enriquemm.github.io">
+  <meta property="og:image" content="https://enriquemm.github.io/fotoFinal.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Enrique Martínez Martel — ML Researcher">
+  <meta name="twitter:description" content="Computer vision, NLP, and applied ML. Looking for PhD positions in Europe.">
+  <meta name="twitter:image" content="https://enriquemm.github.io/fotoFinal.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
@@ -185,32 +195,9 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: top center;
       position: relative;
       z-index: 1;
-      background: var(--tag-bg);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'DM Mono', monospace;
-      font-size: 0.7rem;
-      color: var(--muted);
-    }
-
-    .photo-placeholder {
-      width: 100%;
-      height: 100%;
-      background: var(--tag-bg);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'DM Mono', monospace;
-      font-size: 0.7rem;
-      color: var(--muted);
-      letter-spacing: 0.06em;
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      padding: 1rem;
     }
 
     .hero-stats {
@@ -423,9 +410,6 @@
     }
 
     /* CONTACT */
-    #contact {
-      border-top: 1.5px solid var(--border);
-    }
 
     .contact-grid {
       display: grid;
@@ -670,7 +654,7 @@
           <div class="project-type">Industry · Banco Santander</div>
           <div class="project-title">LLM-Based Email Classification System</div>
           <div class="project-desc">
-            Designed and benchmarked an email classification pipeline using GPT-4 / GPT-4o via Azure OpenAI. Evaluated multiple prompting strategies, validated the system on a representative sample of real operational cases, and delivered the solution for downstream integration. Not deployed to production.
+            Designed and benchmarked an email classification pipeline using GPT-4 / GPT-4o via Azure OpenAI. Evaluated multiple prompting strategies, validated the system on a representative sample of real operational cases, and delivered the solution for downstream integration by the production ML team.
           </div>
           <div class="tags">
             <span class="tag">GPT-4o</span>
@@ -682,6 +666,47 @@
         </div>
         <div class="project-meta">
           <div class="project-year">2024</div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div>
+          <div class="project-type">Hobby · Personal</div>
+          <div class="project-title">Pokémon Content Bot</div>
+          <div class="project-desc">
+            Automated bot that generates and publishes Pokémon videos to X, TikTok, and Instagram on a recurring schedule — no manual intervention. Runs on a Linux server via cron.
+          </div>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Automation</span>
+            <span class="tag">Linux</span>
+            <span class="tag">Video Generation</span>
+            <span class="tag">Cron</span>
+          </div>
+        </div>
+        <div class="project-meta">
+          <div class="project-year">2024–</div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div>
+          <div class="project-type">Industry · Banco Santander</div>
+          <div class="project-title">Mortgage Cancellation Prediction Model</div>
+          <div class="project-desc">
+            Binary classifier to predict early mortgage cancellations, evaluated across multiple time windows to assess temporal stability. Used LightGBM and XGBoost with Stratified K-Fold cross-validation and feature selection via variable importance. Deployed via Azure Databricks Unity Catalog.
+          </div>
+          <div class="tags">
+            <span class="tag">LightGBM</span>
+            <span class="tag">XGBoost</span>
+            <span class="tag">Azure Databricks</span>
+            <span class="tag">PySpark</span>
+            <span class="tag">Credit Risk</span>
+            <span class="tag">MLOps</span>
+          </div>
+        </div>
+        <div class="project-meta">
+          <div class="project-year">2023</div>
         </div>
       </div>
 
@@ -705,27 +730,6 @@
         </div>
         <div class="project-meta">
           <div class="project-year">2021</div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div>
-          <div class="project-type">Industry · Banco Santander</div>
-          <div class="project-title">Mortgage Cancellation Prediction Model</div>
-          <div class="project-desc">
-            Binary classifier to predict early mortgage cancellations, evaluated across multiple time windows to assess temporal stability. Used LightGBM and XGBoost with Stratified K-Fold cross-validation and feature selection via variable importance. Deployed via Azure Databricks Unity Catalog.
-          </div>
-          <div class="tags">
-            <span class="tag">LightGBM</span>
-            <span class="tag">XGBoost</span>
-            <span class="tag">Azure Databricks</span>
-            <span class="tag">PySpark</span>
-            <span class="tag">Credit Risk</span>
-            <span class="tag">MLOps</span>
-          </div>
-        </div>
-        <div class="project-meta">
-          <div class="project-year">2023</div>
         </div>
       </div>
 
@@ -835,7 +839,7 @@
   </section>
 
   <footer>
-    <span>Enrique Martínez Martel — Madrid, Spain</span>
+    <span>Enrique Martínez Martel — Madrid · Open to relocation</span>
     <span>enriquemm.github.io</span>
   </footer>
 
