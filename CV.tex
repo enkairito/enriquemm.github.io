@@ -1,0 +1,234 @@
+%-------------------------
+% Resume in Latex
+% Adapted for: Enrique Martínez Martel
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+% fontawesome
+\usepackage{fontawesome5}
+
+% graphics for photo
+\usepackage{graphicx}
+
+% fixed width
+\usepackage[scale=0.90,lf]{FiraMono}
+
+% light-grey
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+% custom underline
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+% custom font: helvetica-style
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% sans serif sections
+\titleformat{\section}{
+    \bfseries \vspace{-2pt} \raggedright \large
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey} #2}\vspace{1pt}\\
+      \textit{#3} & {\color{dark-grey} #4}\\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey} #2} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{minipage}[c]{0.78\textwidth}
+    \raggedright
+    \textbf{\Huge Enrique Martínez Martel} \\ \vspace{5pt}
+    \hspace{1pt} \faEnvelope \hspace{2pt} \texttt{enri.martinez25@gmail.com} \hspace{1pt} $|$
+    \hspace{1pt} \faLinkedin \hspace{2pt} \href{https://www.linkedin.com/in/enrique-martinez-martel}{\myuline{enrique-martinez-martel}} \hspace{1pt} $|$
+    \hspace{1pt} \faGithub \hspace{2pt} \href{https://github.com/enkairito}{\myuline{enkairito}} \hspace{1pt} $|$
+    \hspace{1pt} \faMapMarker* \hspace{2pt}\texttt{Madrid, Spain}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.14\textwidth}
+    \raggedleft
+    \includegraphics[width=\textwidth]{image.png}
+\end{minipage}
+\vspace{-3pt}
+
+%-----------SUMMARY-----------
+\section{SUMMARY}
+\resumeSubHeadingListStart
+  \item \small{
+    \parbox{\textwidth}{
+    Data Scientist with experience building end-to-end ML systems in regulated financial environments — from IRB credit risk models under the Basel framework to LLM-based classification pipelines. Background spans computer vision, NLP, and applied ML across both industry and academic research.
+    }
+  }
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Banco Santander}{Jan. 2025 -- Present}
+      {Data Scientist - IRB Risk}{Madrid, Spain}
+      \resumeItemListStart
+        \resumeItem{Part of the IRB Risk team; involved in the generation of regulatory credit risk parameters PD (Probability of Default) and LGD (Loss Given Default) under the Basel framework.}
+        \resumeItem{Developed and maintained ETL pipelines and data generation workflows in Databricks (Python/PySpark); provided ad-hoc support to the LGD team including outlier investigation and preparation of responses to ECB and Banco de España inspections.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Banco Santander}{Jun. 2024 -- Dec. 2024}
+      {Data Science Talent Program - Models \& Data}{Madrid, Spain}
+      \resumeItemListStart
+        \resumeItem{Designed and benchmarked an LLM-based email classification pipeline using GPT-4/GPT-4o via Azure OpenAI; evaluated multiple prompting strategies on real operational data.}
+        \resumeItem{Supported the Mortgages business team through customer segmentation, EDA, and automated reporting using Python.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Omron Industrial Automation Europe}{Jan. 2022 -- Aug. 2023}
+      {Junior Software Engineer}{Barcelona, Spain}
+      \resumeItemListStart
+        \resumeItem{Contributed to software solutions optimising industrial automation processes using C\#/.NET, Visual Studio, and TFS.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{\href{https://oa.upm.es/90315/}{\myuline{MSc Thesis: Comparative Analysis of Computer Vision Techniques}}}}{UPM - 2025}
+      \resumeItemListStart
+        \resumeItem{Comparative study of object detection architectures (YOLOv10, Faster R-CNN) on a custom dataset of urban accessibility features; identified YOLOv10L as optimal for real-time deployment. Thesis grade: 10/10.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Mortgage Cancellation Prediction Model}}{Banco Santander - 2023}
+      \resumeItemListStart
+        \resumeItem{Binary LightGBM/XGBoost classifier to predict early mortgage cancellations; deployed via Azure Databricks Unity Catalog with Stratified K-Fold cross-validation.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Pokémon Content Bot}}{Personal - 2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{Automated pipeline that generates and publishes Pokémon videos to X, TikTok, and Instagram on a recurring schedule via cron on a Linux server; no manual intervention required.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{\href{https://upcommons.upc.edu/entities/publication/132d8b44-e06d-451f-87b9-76c65ca4e74a}{\myuline{BSc Thesis: Autonomous Driving with CARLA}}}}{UPC - 2021}
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Universidad Politécnica de Madrid (UPM)}{Sep. 2023 -- Jun. 2025}
+      {MSc in Data Science [Thesis Grade: 10/10]}{Madrid, Spain}
+
+    \resumeSubheading
+      {Escuela de Organización Industrial (EOI)}{Sep. 2022 -- Jun. 2023}
+      {MSc in Big Data \& Digital Business}{Madrid, Spain}
+
+    \resumeSubheading
+      {Universitat Politècnica de Catalunya (UPC)}{Sep. 2017 -- Jun. 2021}
+      {BSc in Computer Science}{Barcelona, Spain}
+
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{SKILLS}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{AI/ML} {: LLMs, Prompt Engineering, XGBoost, LightGBM, PyTorch, Transformers, YOLO, Scikit-learn, Streamlit} \vspace{2pt} \\
+     \textbf{Languages} {: Python (PySpark, Pandas, NumPy), SQL, C\#/.NET} \vspace{2pt} \\
+     \textbf{Tools \& Platforms} {: Apache Spark, Databricks, Azure OpenAI, Git/GitHub, Power BI, Linux, Azure DevOps} \vspace{2pt} \\
+     \textbf{Spoken Languages} {: Spanish (native), English (full professional proficiency), French (basic)} \vspace{2pt} \\
+    }}
+ \end{itemize}
+
+\end{document}
