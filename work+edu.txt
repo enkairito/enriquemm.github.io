@@ -1,0 +1,52 @@
+WORK EXPERIENCE
+
+1.
+
+Job title: Data Scientist - IRB Risk
+Company name: Banco Santander
+Location: Madrid, Spain
+From: January 2025
+To: ✅ I currently work here
+Role description: Part of the IRB Risk team involved in the generation of regulatory credit risk parameters PD and LGD under the Basel framework. Developed and maintained ETL pipelines and data generation workflows in Databricks (Python/PySpark).
+2.
+
+Job title: Data Science Talent Program - Models & Data
+Company name: Banco Santander
+Location: Madrid, Spain
+From: June 2024
+To: December 2024
+Role description: Designed and benchmarked an LLM-based email classification pipeline using GPT-4/GPT-4o via Azure OpenAI, evaluating multiple prompting strategies on real operational data. Supported the Mortgages business team through customer segmentation, EDA, and automated reporting using Python.
+3.
+
+Job title: Junior Software Engineer
+Company name: Omron Industrial Automation Europe
+Location: Barcelona, Spain
+From: January 2022
+To: August 2023
+Role description: Contributed to software solutions optimising industrial automation processes using C#/.NET, Visual Studio, and TFS. Worked within an agile development team following Scrum methodology, participating in sprint planning and code reviews. Applied CI/CD practices and version control workflows to maintain code quality across the team.
+EDUCATION
+
+1.
+
+School: Universidad Politécnica de Madrid (UPM)
+Degree: Master's
+Field of study: Data Science
+GPA: 7.86
+From: September 2023
+To: June 2025
+2.
+
+School: Escuela de Organización Industrial (EOI)
+Degree: Master's
+Field of study: Big Data & Digital Business
+GPA:
+From: September 2024
+To: June 2025
+3.
+
+School: Universitat Politècnica de Catalunya (UPC)
+Degree: Bachelor's
+Field of study: Computer Science
+GPA: 6.91
+From: September 2017
+To: June 2021
