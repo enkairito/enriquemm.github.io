@@ -1,0 +1,105 @@
+%-------------------------
+% Cover Letter in Latex
+% Enrique Martínez Martel
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage[scale=0.90,lf]{FiraMono}
+\usepackage{enumitem}
+
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+
+\color{text-grey}
+
+\begin{document}
+
+\vspace*{160pt}
+
+Dear Prof. Vechev,
+
+\vspace{16pt}
+
+I am writing to express my interest in joining the SRI Lab as a PhD student. My background is in deep learning with a focus on transformer architectures and large language models: a multimodal LLM classification pipeline built at Banco Santander evaluating GPT-4/GPT-4o on real operational data, an MSc thesis at UPM benchmarking deep learning architectures on a real-world dataset (grade: 10/10), and experience developing and maintaining ML pipelines in production at scale. More of my work is at \href{https://enkairito.github.io/enriquemm.github.io/}{\myuline{enkairito.github.io/enriquemm.github.io}}.
+
+\vspace{16pt}
+
+The main reasons I want to do this PhD:
+
+\vspace{8pt}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=10pt]
+
+  \item \textbf{Reliable LLM evaluation is itself an open research problem.} My MSc thesis was a comparative analysis of computer vision techniques on a custom real-world dataset, designed to understand generalization, failure modes, and deployment trade-offs across architectures, not just to report a number on a standard split. That experience made clear how much the methodology shapes the conclusion. The Reliable Language Model Evaluation project asks exactly that question at scale, and it is where I think I can contribute most directly.
+
+  \item \textbf{LLMs for code require constraints that general language modeling ignores.} At Banco Santander I built and evaluated a multimodal LLM pipeline using GPT-4/GPT-4o on real operational data, including benchmarking of prompting strategies and model behavior under distribution shift. Code generation is a harder version of the same problem: the output has to be not just plausible but correct, and increasingly, secure. Constrained decoding and adversarial robustness in that setting are problems I want to work on.
+
+  \item \textbf{Research that produces things.} DeepCode, ChainSecurity, LatticeFlow: the SRI Lab has a track record of turning foundational ideas into systems that people actually use. That is the kind of research I want to do. Not papers that get cited, but work that changes how something is done.
+
+\end{itemize}
+
+\vspace{16pt}
+
+I do not have a programming languages or formal methods background. I am not pretending otherwise. But I have built and deployed ML systems at scale, I understand transformers from the inside, and I learn new domains fast when the problem is worth understanding. I think my applied side complements the theoretical depth the lab already has.
+
+\vspace{16pt}
+
+I would be happy to discuss further.
+
+\vspace{20pt}
+
+Best regards,
+
+\vspace{16pt}
+
+\textbf{Enrique Martínez Martel}
+
+\vspace{6pt}
+
+\faEnvelope \hspace{2pt} \texttt{enri.martinez25@gmail.com} \hspace{6pt} $|$ \hspace{6pt}
+\faLinkedin \hspace{2pt} \href{https://www.linkedin.com/in/enrique-martinez-martel}{\myuline{enrique-martinez-martel}} \hspace{6pt} $|$ \hspace{6pt}
+\faGlobe \hspace{2pt} \href{https://enkairito.github.io/enriquemm.github.io/}{\myuline{enkairito.github.io/enriquemm.github.io}}
+
+\end{document}

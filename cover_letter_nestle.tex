@@ -1,0 +1,96 @@
+%-------------------------
+% Cover Letter in Latex
+% Enrique Martínez Martel
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage[scale=0.90,lf]{FiraMono}
+
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+
+\color{text-grey}
+
+\begin{document}
+
+\vspace*{160pt}
+
+Dear Nestlé hiring committee,
+
+\vspace{16pt}
+
+I came across the Data Science Specialist opening at the Nestlé Product \& Technology Center and wanted to apply. Building and deploying predictive models that directly support product innovation, working closely with scientists and domain experts, is exactly the kind of role I'm looking for.
+
+\vspace{16pt}
+
+My background is in applied ML with a strong focus on end-to-end pipelines. At Banco Santander I built and deployed a LightGBM/XGBoost classifier to predict early mortgage cancellations using Azure Databricks, with Stratified K-Fold cross-validation and full production deployment via Unity Catalog. I also designed an LLM-based email classification system using GPT-4 via Azure OpenAI, evaluating multiple prompting strategies on real operational data. More recently I have been working on credit risk pipelines in Databricks and PySpark, including outlier investigation and data quality work. More of my work is at \href{https://enkairito.github.io/enriquemm.github.io}{\myuline{enkairito.github.io/enriquemm.github.io}}.
+
+\vspace{16pt}
+
+What draws me to this role specifically is the collaboration with cross-functional teams. I enjoy the process of sitting down with people from different fields, understanding what they actually need from the data, and building something that makes sense to them. That dynamic is harder to find than it sounds.
+
+\vspace{16pt}
+
+I work mainly in Python and am familiar with the platforms you use — Databricks, Azure, Power BI, and Streamlit. I don't come from a food or life sciences background, but I'm comfortable learning new domains and I find the application of data science to nutrition and product development genuinely interesting.
+
+\vspace{16pt}
+
+I would be happy to discuss further at your convenience.
+
+\vspace{20pt}
+
+Best regards,
+
+\vspace{16pt}
+
+\textbf{Enrique Martínez Martel}
+
+\vspace{6pt}
+
+\faEnvelope \hspace{2pt} \texttt{enri.martinez25@gmail.com} \hspace{6pt} $|$ \hspace{6pt}
+\faLinkedin \hspace{2pt} \href{https://www.linkedin.com/in/enrique-martinez-martel}{\myuline{enrique-martinez-martel}} \hspace{6pt} $|$ \hspace{6pt}
+\faGithub \hspace{2pt} \href{https://github.com/enkairito}{\myuline{enkairito}}
+
+\end{document}

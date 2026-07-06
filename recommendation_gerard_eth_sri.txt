@@ -1,0 +1,18 @@
+Gerard Escudero Bakx, Professor of the Department of Computer Science at the Universitat Politècnica de Catalunya (UPC).
+
+He states that:
+
+
+I had the opportunity to supervise Mr. Enrique Martínez Martel during his bachelor's thesis at UPC, where he worked on the design and implementation of a perception and decision-making system for autonomous driving using the CARLA simulator. The project required him to integrate sensor data processing, object detection, and real-time control under dynamic and unpredictable conditions.
+
+What stood out most about Mr. Martínez Martel was not simply his technical competence, which was solid, but his way of approaching problems. He did not settle for results that looked good on the surface. He consistently asked why his system behaved the way it did and what would happen when it did not. That kind of thinking is not something that can be taught easily, and it is precisely what separates a good engineer from someone who can do meaningful research.
+
+He managed the project with a level of autonomy and maturity that is uncommon at that stage. He was organized, thorough, and genuinely engaged with the material throughout.
+
+I have no hesitation in recommending Mr. Enrique Martínez Martel for a PhD programme in artificial intelligence or machine learning. The qualities he showed during his thesis, intellectual honesty, independence, and a genuine interest in understanding things deeply, are exactly what doctoral research demands.
+
+What I thus sign for the record for the appropriate purposes in July 2026.
+
+
+Gerard Escudero Bakx
+gerard.escudero@upc.edu
